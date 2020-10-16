@@ -1,0 +1,42 @@
+
+<html>
+    <head>
+        <title>lab</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+<div id="bookOne">  <button type="button" v-on:click="seen = !seen"name="button">{{button}}</button>
+      <div v-if="seen">
+        {{message}}
+
+      </div>
+      <div v-if="seen">
+        {{message1}}
+
+      </div>
+      <div v-if="seen">
+        {{message2}}
+
+      </div>
+</div>
+<div id="bookTwo">  <button type="button" v-on:click="seen = !seen"name="button">{{button}}</button>
+      <div v-if="seen">
+        {{message}}
+
+      </div>
+      <div v-if="seen">
+        {{message1}}
+
+      </div>
+      <div v-if="seen">
+        {{message2}}
+
+      </div>
+</div>
+
+        <script src="https://cdn.jsdelivr.net/npm/p5"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="js/app.js" charset="utf-8"></script>
+    </body>
+</html>
