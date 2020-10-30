@@ -1,0 +1,197 @@
+/*style for the p tog*/
+ p {
+   font-weight: bold;
+   font-size: 21px;
+   
+ }
+/*style that dictates where the buttons are*/
+#spot1 {
+  fill:silver;
+  position: absolute;
+
+}
+#spot2 {
+  fill:silver;
+  position: absolute;
+  margin-left: 350px;
+}
+#spot3 {
+  fill:silver;
+  position: absolute;
+  margin-left: 900px;
+}
+#spot4 {
+  fill:silver;
+  position: absolute;
+  margin-top: 230px;
+}
+#spot5 {
+  fill:silver;
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 230px;
+}
+#spot6 {
+  fill:silver;
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 230px;
+}
+#spot7 {
+  fill:silver;
+  position: absolute;
+  margin-top: 610px;
+
+}
+#spot8 {
+  fill:silver;
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 610px;
+}
+#spot9 {
+  fill:silver;
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 610px;
+}
+#spot1,#spot2,#spot3,#spot4,#spot5,#spot6,#spot7,#spot8,#spot9:hover{
+  background-color: blue;
+  opacity: 1;
+
+
+}
+#buttonOne,#buttonTwo,#buttonThree,#buttonFour,#buttonFive,#buttonSix,#buttonSeven,#buttonEight,#buttonNine {
+  width: 100px;
+  height:100px;
+  background-color: yellow;
+  opacity: 1;
+}
+
+/*this is the css for the x's and o's so that they appear in the right spot*/
+#X {
+  width:100px;
+  height:100px;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+#X2 {
+  width:100px;
+  height:100px;
+  position: absolute;
+  margin-left: 450px;
+}
+#X3 {
+  width:100px;
+  height:100px;
+  position: absolute;
+  margin-left: 800px;
+}
+#X4 {
+  width:100px;
+  height:100px;
+  position: absolute;
+  margin-top: 330px;
+}
+#X5 {
+  width:100px;
+  height:100px;
+  position: absolute;
+  margin-left: 450px;
+  margin-top: 330px;
+}
+#X6 {
+  width:100px;
+  height:100px;
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 330px;
+}
+#X7 {
+  width:100px;
+  height:100px;
+  position: absolute;
+  margin-top: 700px;
+
+}
+#X8 {
+  width:100px;
+  height:100px;
+  position: absolute;
+  margin-left: 450px;
+  margin-top: 700px;
+}
+#X9 {
+  width:100px;
+  height:100px;
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 700px;
+}
+
+#O {
+  width:100px;
+  height:100px;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+#O2 {
+  width:100px;
+  height:100px;
+  position: absolute;
+  margin-left: 450px;
+}
+#O3 {
+  width:100px;
+  height:100px;
+  position: absolute;
+  margin-left: 800px;
+}
+#O4 {
+  width:100px;
+  height:100px;
+  position: absolute;
+  margin-top: 330px;
+}
+#O5 {
+  width:100px;
+  height:100px;
+  position: absolute;
+  margin-left: 450px;
+  margin-top: 330px;
+}
+#O6 {
+  width:100px;
+  height:100px;
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 330px;
+}
+#O7 {
+  width:100px;
+  height:100px;
+  position: absolute;
+  margin-top: 700px;
+}
+#O8 {
+  width:100px;
+  height:100px;
+  position: absolute;
+  margin-left: 450px;
+  margin-top: 700px;
+}
+#O9 {
+  width:100px;
+  height:100px;
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 700px;
+}
+/*
+#Layer_1 {
+  position: inherit;
+  margin:0;
+}
+*/

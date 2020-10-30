@@ -1,0 +1,73 @@
+
+  <html>
+      <head>
+
+          <title>lab</title>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      </head>
+      <body>
+        <!--title and rules, pluse warnings-->
+        <h1>TIC TAC TOE</h1>
+        <p>press the buttons, than press either Q for X or E for O DO NOT PRESS THE MOUSE UNTIL YOU HAVE SELECTED X OR O.
+        To Restart refresh the page</p>
+<!--this is the vue that i used to make the X's and O's Appear by pressing Q or E after pressing the corrasponding button-->
+      <div   id="spot1"  v-on:keyup.q= "pressedQ " v-on:keyup.e= "pressedE">
+          <button id ="buttonOne" type="button" name="button"   v-on:keyup.q= "pressedQ " v-on:keyup.e= "pressedE">Press the button, than Press Q or E</button>
+      </div>
+      <div   id="spot2"  v-on:keyup.q= "pressedQ " v-on:keyup.e= "pressedE">
+          <button id ="buttonTwo" type="button" name="button"   v-on:keyup.q= "pressedQ " v-on:keyup.e= "pressedE">Press the button, than Press Q or E</button>
+      </div>
+      <div   id="spot3"  v-on:keyup.q= "pressedQ " v-on:keyup.e= "pressedE">
+          <button id ="buttonThree" type="button" name="button"   v-on:keyup.q= "pressedQ " v-on:keyup.e= "pressedE">Press the button, than Press Q or E</button>
+      </div>
+      <div   id="spot4"  v-on:keyup.q= "pressedQ " v-on:keyup.e= "pressedE">
+          <button id ="buttonFour" type="button" name="button"   v-on:keyup.q= "pressedQ " v-on:keyup.e= "pressedE">Press the button, than Press Q or E</button>
+      </div>
+      <div   id="spot5"  v-on:keyup.q= "pressedQ " v-on:keyup.e= "pressedE">
+          <button id ="buttonFive" type="button" name="button"   v-on:keyup.q= "pressedQ " v-on:keyup.e= "pressedE">Press the button, than Press Q or E</button>
+      </div>
+      <div   id="spot6"  v-on:keyup.q= "pressedQ " v-on:keyup.e= "pressedE">
+          <button id ="buttonSix" type="button" name="button"   v-on:keyup.q= "pressedQ " v-on:keyup.e= "pressedE">Press the button, than Press Q or E</button>
+      </div>
+      <div   id="spot7"  v-on:keyup.q= "pressedQ " v-on:keyup.e= "pressedE">
+          <button id ="buttonSeven" type="button" name="button"   v-on:keyup.q= "pressedQ " v-on:keyup.e= "pressedE">Press the button, than Press Q or E</button>
+      </div>
+      <div   id="spot8"  v-on:keyup.q= "pressedQ " v-on:keyup.e= "pressedE">
+          <button id ="buttonEight" type="button" name="button"   v-on:keyup.q= "pressedQ " v-on:keyup.e= "pressedE">Press the button, than Press Q or E</button>
+      </div>
+      <div   id="spot9"  v-on:keyup.q= "pressedQ " v-on:keyup.e= "pressedE">
+        <button id = "buttonNine" type="button" name="button">Press the button, than Press Q or E</button>
+      </div>
+<!--this is all the X's and O's-->
+          <svg id="X" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100"></svg>
+          <svg id="X2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100"></svg>
+          <svg id="X3" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100"></svg>
+          <svg id="X4" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100"></svg>
+          <svg id="X5" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100"></svg>
+          <svg id="X6" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100"></svg>
+          <svg id="X7" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100"></svg>
+          <svg id="X8" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100"></svg>
+          <svg id="X9" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100"></svg>
+
+          <svg id="O" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100"></svg>
+          <svg id="O2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100"></svg>
+          <svg id="O3" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100"></svg>
+          <svg id="O4" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100"></svg>
+          <svg id="O5" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100"></svg>
+          <svg id="O6" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100"></svg>
+          <svg id="O7" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100"></svg>
+          <svg id="O8" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100"></svg>
+          <svg id="O9" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100"></svg>
+<!--this is the board itself -->
+
+
+      <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 780 780"><defs><style>.cls-1,.cls-2,.cls-3,.cls-4{fill:none;stroke-miterlimit:10;stroke-width:14px;}.cls-1{stroke:url(#Orange_Yellow);}.cls-2{stroke:url(#Orange_Yellow-2);}.cls-3{stroke:url(#Orange_Yellow-3);}.cls-4{stroke:url(#Orange_Yellow-4);}</style><linearGradient id="Orange_Yellow" x1="112.33" y1="207" x2="126.33" y2="207" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff33b"/><stop offset="0.04" stop-color="#fee72e"/><stop offset="0.12" stop-color="#fed51b"/><stop offset="0.2" stop-color="#fdca10"/><stop offset="0.28" stop-color="#fdc70c"/><stop offset="0.67" stop-color="#f3903f"/><stop offset="0.89" stop-color="#ed683c"/><stop offset="1" stop-color="#e93e3a"/></linearGradient><linearGradient id="Orange_Yellow-2" x1="386.33" y1="207" x2="400.33" y2="207" xlink:href="#Orange_Yellow"/><linearGradient id="Orange_Yellow-3" x1="0" y1="93.33" x2="504" y2="93.33" xlink:href="#Orange_Yellow"/><linearGradient id="Orange_Yellow-4" x1="0" y1="308" x2="504" y2="308" xlink:href="#Orange_Yellow"/></defs><line class="cls-1" x1="119.33" x2="119.33" y2="414"/><line class="cls-2" x1="393.33" x2="393.33" y2="414"/><line class="cls-3" y1="93.33" x2="504" y2="93.33"/><line class="cls-4" y1="308" x2="504" y2="308"/></svg>
+<!--this is our scripts and link to stylesheet-->
+          <link rel="stylesheet" href="css\style.css">
+          <script src="https://cdn.jsdelivr.net/npm/p5"></script>
+          <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+          <script src="js/app.js" charset="utf-8"></script>
+      </body>
+  </html>
