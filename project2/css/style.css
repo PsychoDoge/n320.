@@ -1,0 +1,37 @@
+/*General look of the page*/
+#topBar {
+height: 40px;
+background-color: silver;
+position: relative;
+
+}
+#header{
+  font-family: fantasy;
+  margin-left: 250px;
+
+  flex: initial;
+}
+#one {
+  font-size: 10px;
+  color: black;
+
+}
+#backround{
+  background-color: lightblue;
+  position:sticky;
+  height: 1000px;
+
+}
+/*this is the code that goes over the boxes*/
+#box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10{
+  background-color: gray;
+  width: 150px;
+  height: 350;
+  padding: 50px;
+  margin: 10px;
+  pointer-events: all;
+  float: left;
+  flex-basis: auto;
+  margin-left: 35px;
+  margin-top: 25px;
+}
