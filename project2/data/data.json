@@ -1,8 +1,28 @@
-[
-  {"game":"super mario 64","rating":"8/10"},
-  {"game":"halo","rating":"7/10"},
-  {"game":"halo 2","rating":"9/10"},
-  {"game":"halo 3","rating":"8/10"},
-  {"game":"halo 4","rating":"6/10"},
-  {"game":"halo 5","rating":"5/10"},
-]
+{
+"game":[
+  {
+"id": 1,
+"name1": "halo",
+"description":"blahblahblah",
+"rating":"8/10"
+},
+{
+"id": 2,
+"name": "Halo2",
+"description":"blahblahblah",
+"rating":"8/10"
+},
+{
+"id": 3,
+"name":"halo3",
+"description":"blahblahblah",
+"rating":"8/10"
+},
+{
+"id": 4,
+"name":"halo4",
+"description":"blahblahblah",
+"rating":"8/10"
+}
+
+]}

@@ -19,12 +19,13 @@ position: relative;
 #backround{
   background-color: lightblue;
   position:sticky;
-  height: 1000px;
+  height: 1200px;
 
 }
 /*this is the code that goes over the boxes*/
 #box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10{
-  background-color: gray;
+
+  transition: transform .5s ease;
   width: 150px;
   height: 350;
   padding: 50px;
@@ -34,4 +35,103 @@ position: relative;
   flex-basis: auto;
   margin-left: 35px;
   margin-top: 25px;
+  font-size: 40px;
+
 }
+#text1{
+position: relative;
+top: -260px;
+
+}
+/*the hover element for the boxes*/
+#box1:hover {
+  background: red;
+  transform: scale(1.2);
+
+}
+#box2:hover {
+  background: red;
+  transform: scale(1.2);
+
+}
+#box3:hover {
+  background: red;
+  transform: scale(1.2);
+
+}
+#box4:hover {
+  background: red;
+  transform: scale(1.2);
+
+}
+#box5:hover {
+  background: red;
+  transform: scale(1.2);
+
+}
+#box6:hover {
+  background: red;
+  transform: scale(1.2);
+
+}
+#box7:hover {
+  background: red;
+  transform: scale(1.2);
+
+}
+#box8:hover {
+  background: red;
+  transform: scale(1.2);
+
+}
+#box9:hover {
+  background: red;
+  transform: scale(1.2);
+
+}
+#box10:hover {
+  background: red;
+  transform: scale(1.2);
+
+}
+/*Overlay settings + overlay text*/
+#overlay1,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8,#overlay9,#overlay10 {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0);
+  z-index: 2;
+  cursor: pointer;
+  font-size: 50px;
+  color: white;
+}
+/*to move images around */
+#img1{
+  right: 50px;
+  position: relative;
+
+
+}
+#img2{
+  bottom: 120px;
+  left:-180;
+  position: relative;
+  transform: scale(.5);
+
+}
+/* old code
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+*/
